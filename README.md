@@ -1,5 +1,5 @@
 #Assesment 1 
-I have written two programs in App.js file, first program helps to find two number from an array ofnumbers, which added together to give target number, second program will return longest substring by comparing two strings.
+I have written two programs in App.js file, first program helps to find two number from an array of numbers, which added together to give target number, second program will return longest substring by comparing two strings.
 
 
 

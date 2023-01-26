@@ -1,3 +1,8 @@
+#Assesment 1 
+I have written two programs in App.js file, first program helps to find two number from an array ofnumbers, which added together to give target number, second program will return longest substring by comparing two strings.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

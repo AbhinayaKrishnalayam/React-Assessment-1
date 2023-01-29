@@ -13,23 +13,22 @@ const App = () => {
       }
     }
   };
+const substring = (str1: any, str2: any) => {
+  str1 = str1.split("");
+  str2 = str2.split("");
 
-  const substring = (str1, str2) => {
-    str1 = str1.split("");
-    str2 = str2.split("");
-    const output = [];
-    for (let i = str1.length - 1; i >= 0; i--) {
-      for (let j = str2.length - 1; j >= 0; j--) {
-        if (str2[j] === str1[i]) {
-          str2.toString().replace(str2[j], "");
-          output.push(str2[j]);
-          break;
-        }
+  let output = [];
+  for (let i = 0; i < str1.length; i++) {
+    for (let j = 0; j < str2.length; j++) {
+      if (str2[j] === str1[i]) {
+        output.push(str2[j]);
+        break;
       }
     }
-    return output.sort((a, b) => a.localeCompare(b)).join("");
-  };
-
+  }
+  return output.join("");
+};
+  
   console.log(substring("HELLO", "HELL"));
   console.log(target([3, 3, 5], 6));
   return <div>App</div>;
